@@ -26,10 +26,62 @@ public class MainActivity extends AppCompatActivity {
         two = (EditText) findViewById(R.id.edit_text_two);
         showResult = (TextView)findViewById(R.id.result);
 
-    }
+        btnAdd.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                String firstNumberString = one.getText().toString();
+                float firstNumber = Float.valueOf(firstNumberString);
+                String secondNumberString = two.getText().toString();
+                float secondNumber = Float.valueOf(secondNumberString);
+                float output;
+                output = firstNumber + secondNumber;
+                showResult.setText(String.valueOf(output));
+            }
+        });
 
-    public void onClickListener(View view){
+        btnMinus.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                String firstNumberString = one.getText().toString();
+                float firstNumber = Float.valueOf(firstNumberString);
+                String secondNumberString = two.getText().toString();
+                float secondNumber = Float.valueOf(secondNumberString);
+                float output;
+                output = firstNumber - secondNumber;
+                showResult.setText(String.valueOf(output));
+            }
+        });
 
+        btnMultiply.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                String firstNumberString = one.getText().toString();
+                float firstNumber = Float.valueOf(firstNumberString);
+                String secondNumberString = two.getText().toString();
+                float secondNumber = Float.valueOf(secondNumberString);
+                float output;
+                output = firstNumber * secondNumber;
+                showResult.setText(String.valueOf(output));
+            }
+        });
+
+        btnDivide.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                String firstNumberString = one.getText().toString();
+                float firstNumber = Float.valueOf(firstNumberString);
+                String secondNumberString = two.getText().toString();
+                float secondNumber = Float.valueOf(secondNumberString);
+                if(secondNumber == 0){
+                    showResult.setText(getResources().getString(R.string.error));
+                }else{
+                    float output;
+                    output = firstNumber/secondNumber;
+                    showResult.setText(String.valueOf(output));
+                }
+
+            }
+        });
 
     }
 

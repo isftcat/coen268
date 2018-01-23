@@ -12,6 +12,7 @@
         android:layout_height="wrap_content"
         android:text="@string/first_number"
         android:textSize="20sp"
+        android:textColor="@color/colorPrimaryDark"
         android:padding="5dp"
         android:layout_margin="15dp"/>
 
@@ -21,6 +22,7 @@
         android:layout_height="30dp"
         android:padding = "5dp"
         android:textSize="20sp"
+        android:hint="@string/hint"
         android:layout_margin="15dp"
         android:inputType="phone"/>
 
@@ -29,6 +31,7 @@
         android:layout_height="wrap_content"
         android:text="@string/second_number"
         android:textSize="20sp"
+        android:textColor="@color/colorPrimaryDark"
         android:padding="5dp"
         android:layout_margin="15dp"/>
 
@@ -38,6 +41,7 @@
         android:layout_height="30dp"
         android:padding = "5dp"
         android:textSize="20sp"
+        android:hint="@string/hint"
         android:layout_margin="15dp"
         android:inputType="phone"/>
 
@@ -51,34 +55,34 @@
 
         <Button
             android:id="@+id/calculator_add"
-            android:layout_width="60dp"
+            android:layout_width="80dp"
             android:layout_height="50dp"
-            android:layout_margin="15dp"
+            android:layout_margin="5dp"
             android:textSize="20sp"
             android:text="@string/add"/>
 
 
         <Button
             android:id="@+id/calculator_minus"
-            android:layout_width="60dp"
+            android:layout_width="80dp"
             android:layout_height="50dp"
-            android:layout_margin="15dp"
+            android:layout_margin="5dp"
             android:textSize="20sp"
             android:text="@string/minus"/>
 
         <Button
             android:id="@+id/calculator_multiply"
-            android:layout_width="60dp"
+            android:layout_width="80dp"
             android:layout_height="50dp"
-            android:layout_margin="15dp"
+            android:layout_margin="5dp"
             android:textSize="20sp"
             android:text="@string/multiply"/>
 
         <Button
             android:id="@+id/calculator_divide"
-            android:layout_width="60dp"
+            android:layout_width="80dp"
             android:layout_height="50dp"
-            android:layout_margin="15dp"
+            android:layout_margin="5dp"
             android:textSize="20sp"
             android:text="@string/divide"/>
 
@@ -91,6 +95,7 @@
         android:layout_height="match_parent"
         android:padding="5dp"
         android:textSize="20sp"
+        android:textColor="@color/answerBlue"
         android:layout_margin="15dp"/>
 
 </LinearLayout>
