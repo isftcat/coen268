@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:elevation="5dp"
+    app:cardCornerRadius="5dp"
+    app:cardUseCompatPadding="true"
+    android:id="@+id/dog_walk_card"
+
+    >
+
+
+
+    <android.support.constraint.ConstraintLayout
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/profile_image"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/profile_picture"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+
+
+            />
+
+        <TextView
+            android:id="@+id/walker_name_history"
+            android:layout_width="wrap_content"
+            android:maxWidth="200dp"
+            android:layout_height="28dp"
+            android:layout_marginStart="16dp"
+
+            android:textColor="#000000"
+            android:textSize="@dimen/main_text_size"
+            app:layout_constraintStart_toEndOf="@id/profile_image" />
+
+        <TextView
+            android:id="@+id/walked"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Walked: "
+            android:textColor="#635d5d"
+            android:textSize="@dimen/subtext_size"
+            android:layout_marginStart="16dp"
+            app:layout_constraintStart_toEndOf="@+id/profile_image"
+            app:layout_constraintTop_toBottomOf="@+id/walker_name_history"/>
+
+        <TextView
+            android:id="@+id/walked_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:textColor="#635d5d"
+            android:textSize="@dimen/subtext_size"
+
+            app:layout_constraintStart_toEndOf="@+id/walked"
+            app:layout_constraintTop_toBottomOf="@+id/walker_name_history"/>
+
+        <TextView
+            android:id="@+id/history_walk_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+
+            android:textColor="#635d5d"
+            app:layout_constraintStart_toEndOf="@+id/profile_image"
+            app:layout_constraintTop_toBottomOf="@+id/walked"/>
+
+        <TextView
+            android:id="@+id/text_from_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:text="From Time: "
+
+            android:textColor="#635d5d"
+            app:layout_constraintStart_toEndOf="@+id/profile_image"
+            app:layout_constraintTop_toBottomOf="@+id/history_walk_date"/>
+
+        <TextView
+            android:id="@+id/history_walk_from_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="From Time"
+
+            android:textColor="#635d5d"
+            app:layout_constraintStart_toEndOf="@+id/text_from_time"
+            app:layout_constraintTop_toBottomOf="@+id/history_walk_date"/>
+
+        <TextView
+            android:id="@+id/text_to_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:text="To Time: "
+
+            android:textColor="#635d5d"
+            app:layout_constraintStart_toEndOf="@+id/profile_image"
+            app:layout_constraintTop_toBottomOf="@+id/history_walk_from_time"/>
+
+
+        <TextView
+            android:id="@+id/history_walk_to_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="To Time"
+
+            android:textColor="#635d5d"
+            app:layout_constraintStart_toEndOf="@+id/text_to_time"
+            app:layout_constraintTop_toBottomOf="@+id/history_walk_from_time"/>
+
+
+
+
+
+
+
+
+
+
+
+
+    </android.support.constraint.ConstraintLayout>
+
+</android.support.v7.widget.CardView>
+
+
+

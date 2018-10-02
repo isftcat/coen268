@@ -8,42 +8,26 @@
     tools:context="com.example.apple.calculator.MainActivity">
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        style="@style/tv_style"
         android:text="@string/first_number"
-        android:textSize="20sp"
-        android:textColor="@color/colorPrimaryDark"
-        android:padding="5dp"
-        android:layout_margin="15dp"/>
+        />
 
     <EditText
         android:id="@+id/edit_text_one"
-        android:layout_width="250dp"
-        android:layout_height="30dp"
-        android:padding = "5dp"
-        android:textSize="20sp"
+        style="@style/et_style"
         android:hint="@string/hint"
-        android:layout_margin="15dp"
-        android:inputType="phone"/>
+        />
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        style="@style/tv_style"
         android:text="@string/second_number"
-        android:textSize="20sp"
-        android:textColor="@color/colorPrimaryDark"
-        android:padding="5dp"
-        android:layout_margin="15dp"/>
+        />
 
     <EditText
         android:id="@+id/edit_text_two"
-        android:layout_width="250dp"
-        android:layout_height="30dp"
-        android:padding = "5dp"
-        android:textSize="20sp"
+        style="@style/et_style"
         android:hint="@string/hint"
-        android:layout_margin="15dp"
-        android:inputType="phone"/>
+        />
 
     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
@@ -55,35 +39,23 @@
 
         <Button
             android:id="@+id/calculator_add"
-            android:layout_width="80dp"
-            android:layout_height="50dp"
-            android:layout_margin="5dp"
-            android:textSize="20sp"
+            style="@style/btn_style"
             android:text="@string/add"/>
 
 
         <Button
             android:id="@+id/calculator_minus"
-            android:layout_width="80dp"
-            android:layout_height="50dp"
-            android:layout_margin="5dp"
-            android:textSize="20sp"
+            style="@style/btn_style"
             android:text="@string/minus"/>
 
         <Button
             android:id="@+id/calculator_multiply"
-            android:layout_width="80dp"
-            android:layout_height="50dp"
-            android:layout_margin="5dp"
-            android:textSize="20sp"
+            style="@style/btn_style"
             android:text="@string/multiply"/>
 
         <Button
             android:id="@+id/calculator_divide"
-            android:layout_width="80dp"
-            android:layout_height="50dp"
-            android:layout_margin="5dp"
-            android:textSize="20sp"
+            style="@style/btn_style"
             android:text="@string/divide"/>
 
 

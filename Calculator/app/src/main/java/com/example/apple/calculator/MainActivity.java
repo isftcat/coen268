@@ -73,7 +73,7 @@ public class MainActivity extends AppCompatActivity {
                 String secondNumberString = two.getText().toString();
                 float secondNumber = Float.valueOf(secondNumberString);
                 if(secondNumber == 0){
-                    showResult.setText(getResources().getString(R.string.error));
+                    showResult.setText(R.string.error);
                 }else{
                     float output;
                     output = firstNumber/secondNumber;

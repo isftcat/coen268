@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.dyc.customviewgroupdemo.MainActivity"
+    android:orientation="vertical"
+    android:id="@+id/ll">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Skills"
+        android:textSize="30sp"
+        android:padding="10dp"/>
+
+    <com.dyc.customviewgroupdemo.ThirdCustomLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:id="@+id/labels">
+
+        <TextView
+            style="@style/tv_flag_01"
+            android:text=" c++ "
+            android:padding="10dp"
+            />
+
+
+        <TextView
+            style="@style/tv_flag_01"
+            android:text=" Java "
+            android:padding="10dp"
+            />
+
+
+        <TextView
+            style="@style/tv_flag_01"
+            android:text=" HTML &amp; CSS "
+            android:padding="10dp"
+            />
+
+        <TextView
+            style="@style/tv_flag_01"
+            android:text=" Python "
+            android:padding="10dp"
+            />
+
+        <TextView
+            style="@style/tv_flag_01"
+            android:text=" JavaScript "
+            android:padding="10dp"
+            />
+
+        <TextView
+            style="@style/tv_flag_01"
+            android:text=" jQuery "
+            android:padding="10dp"
+            />
+
+        <TextView
+            style="@style/tv_flag_01"
+            android:text=" PHP "
+            android:padding="10dp"
+            />
+
+
+
+    </com.dyc.customviewgroupdemo.ThirdCustomLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/et"
+            android:layout_width="200dp"
+            android:hint="add your skill here"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"/>
+
+        <Button
+            android:id="@+id/add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:text="Add"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

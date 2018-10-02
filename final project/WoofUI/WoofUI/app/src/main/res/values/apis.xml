@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="signup_api">http://172.20.119.28:8080/WoofServer/webresources/web.ownerdetails</string>
+    <string name="update_token_api">http://172.20.119.28:8080/WoofServer/webresources/web.ownerdetails/updateToken</string>
+    <string name="walkList_api">http://172.20.119.28:8080/WoofServer/webresources/web.walkinfo/walkList</string>
+    <string name="postWalkList_api">http://172.20.119.28:8080/WoofServer/webresources/web.walkinfo/postWalkList</string>
+    <string name="postWalk_api">http://172.20.119.28:8080/WoofServer/webresources/web.walkinfo</string>
+    <string name="availableWalkList_api">http://172.20.119.28:8080/WoofServer/webresources/web.walkinfo/availableWalkList</string>
+    <string name="requestedWalkList_api">http://172.20.119.28:8080/WoofServer/webresources/web.walkreq/requestedWalkList</string>
+    <string name="requestAWalk_api">http://172.20.119.28:8080/WoofServer/webresources/web.walkreq</string>
+    <string name="pendingRequestWalkList_api">http://172.20.119.28:8080/WoofServer/webresources/web.walkreq/pendingRequestWalkList</string>
+    <!--<string name="picUpload_api">http://192.168.1.5:8080/WoofServer/webresources/web.dogdetails/upload</string>-->
+    <string name="dogDetails_api">http://172.20.119.28:8080/WoofServer/webresources/web.dogdetails/ownerId</string>
+    <string name="image_url">http://172.20.119.28:8080/WoofServer/images/</string>
+    <string name="postMate_api">http://172.20.119.28:8080/WoofServer/webresources/web.mateinfo</string>
+    <string name="availableMateList_api">http://172.20.119.28:8080/WoofServer/webresources/web.mateinfo/availableMateList</string>
+    <string name="requestedMateList_api">http://172.20.119.28:8080/WoofServer/webresources/web.matereq/requestedMateList</string>
+    <string name="pendingRequestMateList_api">http://172.20.119.28:8080/WoofServer/webresources/web.matereq/pendingRequestMateList</string>
+    <string name="mateList_api">http://172.20.119.28:8080/WoofServer/webresources/web.mateinfo/mateList</string>
+    <string name="requestAMate_api">http://172.20.119.28:8080/WoofServer/webresources/web.matereq</string>
+    <string name="walkers_info_api">http://172.20.119.28:8080/WoofServer/webresources/web.walkinfo/HistoryWalkList</string>
+    <string name="mate_info_api">http://172.20.119.28:8080/WoofServer/webresources/web.mateinfo/HistoryMateList</string>
+    <string name="picDownload_api">http://172.20.119.28:8080/WoofServer/webresources/web.ownerdetails/getImage</string>
+    <string name="postNotification_url">http://172.20.119.28:8080/WoofServer/webresources/web.walkinfo/walkAcceptNotification</string>
+    <string name="login_api">http://172.20.119.28:8080/WoofServer/webresources/web.ownerdetails/login</string>
+    <string name="dogdetail_api">http://172.20.119.28:8080/WoofServer/webresources/web.dogdetails</string>
+
+
+</resources>

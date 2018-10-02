@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "78883019477",
+    "firebase_url": "https://woof-268.firebaseio.com",
+    "project_id": "woof-268",
+    "storage_bucket": "woof-268.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:78883019477:android:893643a32120234e",
+        "android_client_info": {
+          "package_name": "com.example.a.woofui"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "78883019477-r34t1ti8tl3p79q18tlqslu9pv7ccbd4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.a.woofui",
+            "certificate_hash": "aa8f1b62a8f52f36fd235a3029ca0a38211771f8"
+          }
+        },
+        {
+          "client_id": "78883019477-38mu44cnr1uosi52jmtqdh8ev80t3o1o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAislvFq6B61IxqgvvLuhOhskWqhRBwF84"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "78883019477-38mu44cnr1uosi52jmtqdh8ev80t3o1o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

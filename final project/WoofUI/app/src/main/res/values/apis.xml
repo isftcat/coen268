@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="signup_api">http://172.20.100.132:8080/WoofNewService/webresources/webwoof.ownerdetails</string>
+    <string name="walkList_api">http://172.20.100.132:8080/WoofNewService/webresources/webwoof.walkinfo/walkList</string>
+    <string name="postWalkList_api">http://172.20.100.132:8080/WoofNewService/webresources/webwoof.walkinfo/postWalkList</string>
+    <string name="postWalk_api">http://172.20.100.132:8080/WoofNewService/webresources/webwoof.walkinfo</string>
+    <string name="availableWalkList_api">http://172.20.100.132:8080/WoofNewService/webresources/webwoof.walkinfo/availableWalkList</string>
+    <string name="requestedWalkList_api">http://172.20.100.132:8080/WoofNewService/webresources/webwoof.walkreq/requestedWalkList</string>
+    <string name="requestAWalk_api">http://172.20.100.132:8080/WoofNewService/webresources/webwoof.walkreq</string>
+    <string name="pendingRequestWalkList_api">http://172.20.100.132:8080/WoofNewService/webresources/webwoof.walkreq/pendingRequestWalkList</string>
+    <string name="picUpload_api">http://172.20.100.132:8080/WoofNewService/webresources/webwoof.dogdetails/upload</string>
+    <string name="dogDetails_api">http://172.20.100.132:8080/WoofNewService/webresources/webwoof.dogdetails/ownerId</string>
+    <string name="image_url">http://172.20.100.132:8080/WoofNewService/images/</string>
+
+    <string name="postMate_api">http://localhost:8080/WoofNewService/webresources/webwoof.mateinfo</string>
+    <string name="availableMateList_api">http://localhost:8080/WoofNewService/webresources/webwoof.mateinfo/availableMateList</string>
+    <string name="requestedMateList_api">http://localhost:8080/WoofNewService/webresources/webwoof.mateinfo/requestedMateList</string>
+    <string name="pendingRequestMateList_api">http://localhost:8080/WoofNewService/webresources/webwoof.mateinfo/pendingRequestMateList</string>
+    <string name="mateList_api">http://localhost:8080/WoofNewService/webresources/webwoof.mateinfo/mateList</string>
+
+
+</resources>

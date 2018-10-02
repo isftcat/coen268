@@ -1,0 +1,22 @@
+<resources>
+    <string name="History">WoofUI</string>
+    <string name="title_activity_history">HistoryActivity</string>
+    <string name="tab_text_1">Dog Walk</string>
+    <string name="tab_text_2">Dog Mate</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="app_name">WoofUI</string>
+    <string name="title_activity_login_page">LoginPage</string>
+    <string name="button">Button</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="dog_mate">Dog Mate</string>
+    <string name="dogDetails">dog_details</string>
+    <string name="openProfile">Open</string>
+    <string name="closeProfile">Close</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="picUpload_api">http://192.168.1.5:8080/WoofServer/webresources/web.ownerdetails/upload</string>
+
+
+</resources>

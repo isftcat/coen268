@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">SQLiteDemo</string>
+    <string name="name">Name:</string>
+    <string name="email">Email:</string>
+    <string name="favorite">Favorite TV Show:</string>
+    <string name="id">ID:</string>
+    <string name="add">ADD</string>
+    <string name="view">VIEW</string>
+    <string name="update">UPDATE</string>
+    <string name="delete">DELETE</string>
+</resources>

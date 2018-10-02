@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:clipChildren="false"
+
+    android:background="@drawable/border_shadow"
+    android:clipToPadding="false"
+    >
+    <!--android:paddingTop="15dp"-->
+    <!--android:paddingBottom="5dp"-->
+
+
+    <TextView
+        android:id="@+id/post_mate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableTop="@drawable/ic_post"
+        android:textAlignment="center"
+        android:layout_weight="0.25"
+        android:clickable="true"
+        android:text="Post a Walk"
+        android:textSize="14dp"
+        android:background="?attr/selectableItemBackgroundBorderless"
+
+        />
+
+    <TextView
+        android:id="@+id/available"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableTop="@drawable/ic_list"
+        android:textAlignment="center"
+        android:layout_weight="0.25"
+        android:clickable="true"
+        android:text="Available"
+        android:textSize="14dp"
+        android:background="?attr/selectableItemBackgroundBorderless"
+
+    />
+    <TextView
+        android:id="@+id/requested"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableTop="@drawable/ic_waitlist"
+        android:textAlignment="center"
+        android:layout_weight="0.25"
+        android:clickable="true"
+        android:text="Requested"
+        android:textSize="14dp"
+        android:background="?attr/selectableItemBackgroundBorderless"
+    />
+    <TextView
+        android:id="@+id/requests"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableTop="@drawable/ic_requested"
+        android:textAlignment="center"
+        android:layout_weight="0.25"
+        android:clickable="true"
+        android:text="Requests"
+        android:textSize="14dp"
+        android:background="?attr/selectableItemBackgroundBorderless"
+
+    />
+
+</LinearLayout>

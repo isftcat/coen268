@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.dyc.customviewgroupdemo.ThirdCustomLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="300dp">
+
+    <TextView
+        style="@style/tv_flag_01"
+        android:text=" test_view "
+        android:padding="10dp"
+        />
+
+
+    <TextView
+        style="@style/tv_flag_01"
+        android:text=" test_view test_view "
+        android:padding="10dp"
+        />
+
+    <TextView
+        style="@style/tv_flag_01"
+        android:text=" test_view test_view test_view "
+        android:padding="10dp"
+    />
+
+    <TextView
+        style="@style/tv_flag_01"
+        android:text=" test_view test_view "
+        android:padding="10dp"
+    />
+</com.dyc.customviewgroupdemo.ThirdCustomLayout>
+

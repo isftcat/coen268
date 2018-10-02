@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:elevation="5dp"
+    app:cardCornerRadius="5dp"
+    app:cardUseCompatPadding="true"
+    android:id="@+id/dog_walk_card"
+
+    >
+
+    <android.support.constraint.ConstraintLayout
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/profile_image"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/profile_picture"
+
+
+            />
+
+        <TextView
+            android:id="@+id/walker"
+            android:layout_width="wrap_content"
+            android:maxWidth="200dp"
+            android:layout_height="32dp"
+            android:layout_marginStart="16dp"
+            android:text="Bhargav Maniyar"
+            android:textColor="#484A54"
+            android:textSize="@dimen/main_text_size"
+            app:layout_constraintStart_toEndOf="@id/profile_image" />
+
+        <TextView
+            android:id="@+id/walked"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Walked: "
+            android:textColor="#484A54"
+            android:textSize="@dimen/subtext_size"
+            android:layout_marginStart="16dp"
+            app:layout_constraintStart_toEndOf="@+id/profile_image"
+            app:layout_constraintTop_toBottomOf="@+id/walker"/>
+
+        <TextView
+            android:id="@+id/walked_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dog Name"
+            android:textColor="#484A54"
+            android:textSize="@dimen/subtext_size"
+
+            app:layout_constraintStart_toEndOf="@+id/walked"
+            app:layout_constraintTop_toBottomOf="@+id/walker"/>
+
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:text="20 Jan, 2018"
+            android:textColor="#484A54"
+            app:layout_constraintStart_toEndOf="@+id/profile_image"
+            app:layout_constraintTop_toBottomOf="@+id/walked"/>
+
+        <TextView
+            android:id="@+id/time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:text="5:00 P.M."
+            android:textColor="#484A54"
+            app:layout_constraintStart_toEndOf="@+id/profile_image"
+            app:layout_constraintTop_toBottomOf="@+id/date"/>
+
+
+
+
+
+
+
+
+
+
+
+
+    </android.support.constraint.ConstraintLayout>
+
+</android.support.v7.widget.CardView>
+
+
+

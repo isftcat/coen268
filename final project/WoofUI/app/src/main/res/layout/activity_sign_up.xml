@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context="com.example.a.woofui.SignUpDetails"
+    android:fitsSystemWindows="true">
+
+
+    <Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/colorPrimary"
+        android:elevation="5dp"
+        android:minHeight="?attr/actionBarSize"
+        android:id="@+id/toolbar2">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Woof!"
+            android:textSize="27dp"
+            android:textStyle="bold" />
+
+
+    </Toolbar>
+
+    <Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/toolbar3"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/toolbar2"
+        android:background="@color/textColorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Personal Details"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#212121"/>
+
+    </Toolbar>
+
+    <EditText
+        android:id="@+id/txtName"
+        android:layout_width="350dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/toolbar3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/roundedbox"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text=" Name" />
+
+    <EditText
+        android:id="@+id/txtAddress"
+        android:layout_width="350dp"
+        android:layout_height="70dp"
+        android:layout_below="@+id/toolbar3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/roundedbox"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text=" Address" />
+
+    <EditText
+        android:id="@+id/txtCity"
+        android:layout_width="350dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/toolbar3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="130dp"
+        android:background="@drawable/roundedbox"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text=" City" />
+
+    <EditText
+        android:id="@+id/txtState"
+        android:layout_width="350dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/toolbar3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="170dp"
+        android:background="@drawable/roundedbox"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text=" State" />
+
+    <EditText
+        android:id="@+id/txtCountry"
+        android:layout_width="350dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/toolbar3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="210dp"
+        android:background="@drawable/roundedbox"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text=" Country" />
+
+    <EditText
+        android:id="@+id/txtMobileNumber"
+        android:layout_width="350dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/toolbar3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="250dp"
+        android:background="@drawable/roundedbox"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text=" Mobile Number" />
+
+    <EditText
+        android:id="@+id/txtEmailId"
+        android:layout_width="350dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/toolbar3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="290dp"
+        android:background="@drawable/roundedbox"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text=" Email ID" />
+
+    <EditText
+        android:id="@+id/txtPassw"
+        android:layout_width="350dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/toolbar3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="330dp"
+        android:background="@drawable/roundedbox"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text=" Password" />
+
+    <Button
+        android:id="@+id/btn_Register"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/toolbar3"
+        android:layout_marginTop="400dp"
+        android:background="@drawable/roundedbutton"
+        android:enabled="true"
+        android:text="Register"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

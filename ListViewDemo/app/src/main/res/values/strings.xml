@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">ListViewDemo</string>
+    <string name="item_input">Input</string>
+    <string name="item_confirm">Confirm</string>
+    <string-array name="content">
+        <item>item 1</item>
+        <item>item 2</item>
+        <item>item 3</item>
+        <item>item 4</item>
+        <item>item 5</item>
+        <item>item 6</item>
+        <item>item 7</item>
+        <item>item 8</item>
+        <item>item 9</item>
+        <item>item 10</item>
+        <item>item 11</item>
+        <item>item 12</item>
+        <item>item 13</item>
+        <item>item 14</item>
+        <item>item 15</item>
+        <item>item 16</item>
+    </string-array>
+</resources>
